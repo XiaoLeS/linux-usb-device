@@ -33,7 +33,7 @@ This is a record of my research on making an embedded device be recognized as an
     * https://wiki.tizen.org/wiki/USB/Linux_USB_Layers/Configfs_Composite_Gadget/General_configuration
     * There are still many things I should study on......
   * I will try the STM32F4 tomorrow.
--2017/2/5
+- 2017/2/5
   * Setup the environment on linux for STM32F4 Discovery
     * http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html
   * Find some resources about STM32F4 and make it as USB device
@@ -43,7 +43,7 @@ This is a record of my research on making an embedded device be recognized as an
     * There is an example of USB mass storage host and descriptions of both.
       * http://wiki.csie.ncku.edu.tw/embedded/USB#usb-host-and-device
     * Still working on it......
--2017/2/6
+- 2017/2/6
   * Another choice - STM32CUBE
     * Integerated many libraries and middleware for STM32 series.
     * Including USB device and WIFI module.
@@ -51,6 +51,6 @@ This is a record of my research on making an embedded device be recognized as an
       * USB device: http://www.st.com/content/ccc/resource/technical/document/user_manual/cf/38/e5/b5/dd/1d/4c/09/DM00108129.pdf/files/DM00108129.pdf/jcr:content/translations/en.DM00108129.pdf
       * IAP: http://www.st.com/content/ccc/resource/technical/document/user_manual/79/6e/5f/d4/5c/25/43/96/DM00103145.pdf/files/DM00103145.pdf/jcr:content/translations/en.DM00103145.pdf
       
--2017/3/5
+- 2017/3/5
   * Since my linux notebook was broken, I haven't updated this note for a long time. In these days, I have tried STM32F429ZI nucleo, and successfully let it become a usb disk, however, since there wasn't an OS on it, it is difficult for me to develop more multitask applications on it. Though the problem might be solved by using mbed or FreeRTOS, I prefered to use linux gadget API framework. The question is to find a develop board with otg support and also with the driver support. Fortunately, I found a board that was given by a friend of mine two years ago totally fit the requirements! And it is Zedboard! As the result, I start to be familier to this board and build the system on it.
   * I will update the steps in detail later.
